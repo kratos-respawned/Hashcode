@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar"; 
 // @ts-ignore
 import img from "./hashcode.png";
 function Herosection() {
