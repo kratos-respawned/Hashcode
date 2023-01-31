@@ -14,6 +14,9 @@
 .poppins{
   font-family: 'Poppins', sans-serif;
 }
+.shadow-white{
+  box-shadow: -8px -8px 16px rgba(255, 255, 255, 0.7), inset 8px 7px 16px rgba(81, 79, 79, 0.25);
+}
 @layer components {
   .hero-section {
     position: relative;
