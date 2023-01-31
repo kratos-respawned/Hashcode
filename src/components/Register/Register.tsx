@@ -3,7 +3,7 @@ import React from 'react'
 function Register() {
   return (
     <>
-        <div className="grid place-items-center min-h-screen">
+        <div className="grid place-items-center min-h-[110vh] register_bg bg-cover">
             <div className="flex flex-col justify-center items-center">
                 <p className="poppins font-bold text-[64px] leading-[86px] tracking-[-4.5%] text-black/75">Register Now</p>
                 <p className="poppins font-normal text-[18px] leading-[25px] tracking-[-0.045em] text-black/75 text-center mt-2">Don’t Miss Out The Oppurtunity <br /> To Be Part Of World’s Largest Hackathon </p>
