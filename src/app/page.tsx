@@ -2,6 +2,7 @@ import Challenge from "@/components/Challenge/Challenge";
 import Divider from "@/components/Divider/Divider";
 import Herosection from "@/components/Herosection/Herosection";
 import Register from "@/components/Register/Register";
+import Stats from "@/components/Stats/Stats";
 import What from "@/components/What/What";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <What/>
       <Register/>
       <Divider/>
+      <Stats/>
     </>
   );
 }
