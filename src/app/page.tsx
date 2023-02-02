@@ -1,5 +1,7 @@
 import Challenge from "@/components/Challenge/Challenge";
 import Divider from "@/components/Divider/Divider";
+import Doubts from "@/components/Doubts/Doubts";
+import Faq from "@/components/Faq/Faq";
 import Herosection from "@/components/Herosection/Herosection";
 import Register from "@/components/Register/Register";
 import Stats from "@/components/Stats/Stats";
@@ -12,8 +14,10 @@ export default function Home() {
       <Challenge/>
       <What/>
       <Register/>
-      <Divider/>
       <Stats/>
+      <Divider/>
+      <Faq/>
+      <Doubts/>
     </>
   );
 }
