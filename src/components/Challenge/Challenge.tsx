@@ -6,7 +6,7 @@ import ss from "./ss.png";
 function Challenge() {
     return (
         <>
-            <div className="flex flex-col px-16 py-10">
+            <div className="flex flex-col px-16 py-10 font-poppins">
                 <Image src={google} alt="hero" width={324} height={112} quality={100} />
                 <div className="flex flex-row justify-between items-center mt-10">
                     <Image src={ss} alt="hero" width={433} height={240} quality={100} />

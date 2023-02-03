@@ -1,16 +1,21 @@
 import Image from "next/image";
 import cu from "./cu.png";
 import hs from "./hs.png";
+import { Montserrat } from "@next/font/google";
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"]
+})
 function Navbar() {
   return (
-    <header className="  flex justify-between items-center w-10/12 mx-auto  pt-5 ">
+    <header className={` ${montserrat.variable} font-montserrat tracking-wider  flex justify-between items-center w-10/12 mx-auto  pt-5  `}>
       <Image
         src={hs}
         alt="hero"
         width={59}
         height={63}
         quality={100}
-        className="aspect-[59/68]"
+        className="aspect-[59/68] "
       />
       <nav className="flex items-center space-x-10  text-white bg-slate-900 bg-opacity-50 w-3/5 min-w-max rounded-full  p-2 mx-auto ">
         <a
@@ -34,7 +39,7 @@ function Navbar() {
             Rules
           </a>
         </div>
-        <button className="bg-white text-black rounded-full  px-4 py-2 opacity-0">
+        <button className="bg-white text-black rounded-full  px-4 py-2 hover:bg-opacity-80 bg-opacity-90 ">
           Get started
         </button>
       </nav>

@@ -18,7 +18,9 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
-        poppins:["var(--font-poppins)"]
+        poppins:["var(--font-poppins)"],
+        noto:["var(--font-noto)"],
+        montserrat:["var(--font-montserrat)"]
       },
       keyframes: {
         "accordion-down": {

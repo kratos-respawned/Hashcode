@@ -14,8 +14,8 @@ export default function Home() {
       <Challenge />
       <What />
       <Register />
-      <Divider />
       <Stats />
+      <Divider />
       <Faq />
       <Doubts />
     </>
