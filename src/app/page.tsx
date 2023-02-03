@@ -11,13 +11,15 @@ export default function Home() {
   return (
     <>
       <Herosection />
-      <Challenge />
-      <What />
-      <Register />
-      <Stats />
-      <Divider />
-      <Faq />
-      <Doubts />
+      <section className="px-5 sm:px-20">
+        <Challenge />
+        <What />
+        <Register />
+        <Stats />
+        <Divider />
+        <Faq />
+        <Doubts />
+      </section>
     </>
   );
 }
