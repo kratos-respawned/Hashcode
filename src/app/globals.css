@@ -24,14 +24,13 @@
   .hero-section {
     position: relative;
     background-color: #001122;
-    background-image: url("../components/Herosection/dark.png");
     min-height: 90vh;
     min-height: 90dvh;
   }
-  .register_bg {
-    position: relative;
-    background-image: url("../components/Register/register.png");
+  /* .register_bg { */
+    /* position: relative; */
+    /* background-image: url("../components/Register/register.png"); */
     /* min-height: 90vh;
     min-height: 90dvh; */
-  }
+  /* } */
 }

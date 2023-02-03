@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <>
       <Herosection />
-      <Challenge/>
-      <What/>
-      <Register/>
-      <Stats/>
-      <Divider/>
-      <Faq/>
-      <Doubts/>
+      <Challenge />
+      <What />
+      <Register />
+      <Divider />
+      <Stats />
+      <Faq />
+      <Doubts />
     </>
   );
 }

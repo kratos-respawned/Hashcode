@@ -1,11 +1,9 @@
 import Image from "next/image";
-// @ts-ignore
 import cu from "./cu.png";
-// @ts-ignore
 import hs from "./hs.png";
 function Navbar() {
   return (
-    <header className="  flex justify-between items-center lg:px-28 pt-5  w-full">
+    <header className="  flex justify-between items-center w-10/12 mx-auto  pt-5 ">
       <Image
         src={hs}
         alt="hero"
