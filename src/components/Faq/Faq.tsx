@@ -31,7 +31,7 @@ const List = ({ title, content, value }: {
   title: string, content: string, value: string
 }) => {
   return (
-    <AccordionItem value={value}>
+    <AccordionItem value={value} className="pr-14 md:pr-28">
       <AccordionTrigger className='text-gBlue'>{title}</AccordionTrigger>
       <AccordionContent>
         {content}
