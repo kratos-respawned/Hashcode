@@ -4,6 +4,7 @@ import Doubts from "@/components/Doubts/Doubts";
 import Faq from "@/components/Faq/Faq";
 import Herosection from "@/components/Herosection/Herosection";
 import Register from "@/components/Register/Register";
+import Schedule from "@/components/Schedule/Schedule";
 import Stats from "@/components/Stats/Stats";
 import What from "@/components/What/What";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <What />
         <Register />
         <Stats />
+        <Schedule />
         <Divider />
         <Faq />
         <Doubts />
