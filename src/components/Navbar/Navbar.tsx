@@ -3,13 +3,13 @@ import cu from "./cu.png";
 import hs from "./hs.png";
 import { Montserrat } from "@next/font/google";
 const montserrat = Montserrat({
-  // variable: "--font-montserrat",
+  variable: "--font-montserrat",
   subsets: ["latin"]
 })
 function Navbar() {
   return (
-    // ${montserrat.variable}
-    <header className={`  font-montserrat tracking-wider  flex justify-between items-center w-10/12 mx-auto  pt-5  `}>
+
+    <header className={` ${montserrat.variable}  font-montserrat tracking-wider  flex justify-between items-center w-10/12 mx-auto  pt-5  `}>
       <Image
         src={hs}
         alt="hero"
