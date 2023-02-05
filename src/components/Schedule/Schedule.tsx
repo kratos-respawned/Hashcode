@@ -4,7 +4,7 @@ function Schedule() {
     return (
         <section className="font-poppins my-12 py-12">
             <h2 className="text-5xl leading-3 text-black/75">2023 Schedule <span className="text-xl font-thin">Display in local time (GMT+5:30)</span> </h2>
-            <p className="bg-[#f2f7fe] text-base py-4 px-4 my-11 rounded">Ready to participate in Kick Start? Registration opens on
+            <p className="bg-gBlue/10 text-base py-4 px-6 my-11 rounded w-fit">Ready to participate in Kick Start? Registration opens on
                 <span className="font-bold mx-1">Feb 1 2023, 16:00 (UTC)</span>
                 and will remain open until
                 <span className="font-bold mx-1">Nov 4 2023, 06:00 (UTC)</span>
