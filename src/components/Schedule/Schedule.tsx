@@ -7,7 +7,7 @@ function Schedule() {
                 and will remain open until
                 <span className="font-bold mx-1">Nov 4 2023, 06:00 (UTC)</span>
             </p>
-            <div className="border-l-2 border-gray-600 ">
+            <div className="border-l-2 border-gray-600 ml-28 ">
                 <article className="mx-5 my-5">
                     <h3 className="text-black/40 text-2xl my-3">APR 17,2023</h3>
                     <h3 className="py-2 px-4 bg-gYellow w-fit relative text-white "><span className="absolute w-4 aspect-square bg-black -left-5 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full" /> Deadline for Online Registration</h3>
