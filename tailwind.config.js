@@ -1,4 +1,4 @@
-const { fontFamily } = require("tailwindcss/defaultTheme")
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -14,13 +14,15 @@ module.exports = {
     extend: {
       colors: {
         hGray: "#4E4E4E",
-        gBlue:"#4286F3"
+        gBlue: "#4286F3",
+        gYellow: "#FCD66A",
+        gGreen: "#34A853",
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
-        poppins:["var(--font-poppins)"],
-        noto:["var(--font-noto)"],
-        montserrat:["var(--font-montserrat)"]
+        poppins: ["var(--font-poppins)"],
+        noto: ["var(--font-noto)"],
+        montserrat: ["var(--font-montserrat)"],
       },
       keyframes: {
         "accordion-down": {
@@ -39,4 +41,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
