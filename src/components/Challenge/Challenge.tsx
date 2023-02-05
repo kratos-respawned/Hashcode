@@ -9,7 +9,7 @@ function Challenge() {
             <div className="flex flex-col  py-10 font-poppins">
                 <Image src={google} alt="hero" width={324} height={112} quality={100} />
                 <div className="flex flex-row justify-between items-center mt-10">
-                    <Image src={ss} alt="hero" width={433} height={240} quality={100} />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QDIa9PBmX50" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <div className="text-[55px] leading-[80px] font-extrabold text-right -mr-10">
                         The Biggest <br />
                         <span className='text-[#EB4B3D] font-bold tracking-tighter -ml-3'> &#123; </span>

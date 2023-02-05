@@ -5,7 +5,7 @@ function Register() {
   return (
     <>
       <div className="grid place-items-center  py-40 my-5 relative  font-poppins isolate  ">
-        <Image fill alt="background" src={register} className=" object-scale-down  -z-10" />
+        <Image fill alt="background" src={register} className=" object-scale-down pointer-events-none -z-10" />
         <div className="flex flex-col justify-center items-center">
           <p className=" font-bold  text-3xl md:text-6xl leading-[86px] tracking-[-4.5%] text-black/75">Register Now</p>
           <p className=" font-normal text-[18px] leading-[25px] tracking-[-0.045em] text-black/75 text-center mt-2">Don’t Miss Out The Oppurtunity <br /> To Be Part Of World’s Largest Hackathon </p>

@@ -6,15 +6,14 @@ import Herosection from "@/components/Herosection/Herosection";
 import Register from "@/components/Register/Register";
 import Schedule from "@/components/Schedule/Schedule";
 import Stats from "@/components/Stats/Stats";
-import What from "@/components/What/What";
-
+import About from "@/components/About/About";
 export default function Home() {
   return (
     <>
       <Herosection />
       <section className="px-5 sm:px-20">
         <Challenge />
-        <What />
+        <About />
         <Register />
         <Stats />
         <Schedule />
