@@ -5,7 +5,7 @@ import img2 from "./img2.png";
 function About() {
     return (
         <>
-            <div className="flex flex-row justify-between  py-28 font-poppins">
+            <div id='about' className="flex flex-col  md:flex-row justify-between  py-28 font-poppins">
                 <div className="flex flex-col max-w-[700px] mr-10">
                     <b className='text-[42px]'>What's Hash code?</b>
                     <p className='text-black/75 text-[15px] mt-2'>Hash Code is a team programming competition, organized by Google, for students and professionals around the world. You pick your team and programming language and we pick an engineering problem for you to solve. This year's contest kicks off with a Qualification Round, where your team can compete virtually from wherever you'd like, alongside your Hub. Top teams will then be invited to compete from our virtual World Finals.</p>

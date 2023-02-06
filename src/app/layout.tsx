@@ -1,5 +1,11 @@
 import "./globals.css";
 import { Poppins, Noto_Sans } from "@next/font/google"
+import { Montserrat } from "@next/font/google";
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  weight: ["300", "400", "500"],
+  subsets: ["latin"]
+})
 const poppins = Poppins(
   {
     weight: ["300", "400", "500", "600"],
@@ -20,12 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head />
-
-
-
-      <body className={`${poppins.variable} ${noto_sans.variable}  bg-white h-full`}>
+      <body className={` ${montserrat.variable} ${poppins.variable} ${noto_sans.variable}  bg-white h-full`}>
         <main className="max-w-screen-2xl overflow-clip h-full w-full mx-auto ">
           {children}
         </main>

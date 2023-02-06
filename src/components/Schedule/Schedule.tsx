@@ -1,24 +1,32 @@
+
 import { Calendar } from "lucide-react"
+import { Switch } from "../ui/switch"
 
 function Schedule() {
     return (
-        <section className="font-poppins my-12 py-12">
-            <h2 className="text-5xl leading-3 text-black/75">2023 Schedule <span className="text-xl font-thin">Display in local time (GMT+5:30)</span> </h2>
+        <section id="schedule" className="font-poppins my-12 py-12">
+            <h2 className="text-3xl sm:text-5xl leading-3 text-black/75 flex flex-col lg:flex-row gap-y-5 gap-2">
+                <span >
+                    2023 Schedule
+                </span>
+                <span className="text-xl font-thin">Display in local time (GMT+5:30) <Switch className="inline lg:hidden items-end" /></span>
+                <Switch className="items-end hidden lg:block" />
+
+            </h2>
             <p className="bg-gBlue/10 text-base py-4 px-6 my-11 rounded w-fit">Ready to participate in Kick Start? Registration opens on
                 <span className="font-bold mx-1">Feb 1 2023, 16:00 (UTC)</span>
                 and will remain open until
                 <span className="font-bold mx-1">Nov 4 2023, 06:00 (UTC)</span>
                 <Calendar className="inline mx-4 text-gBlue" />
             </p>
-            <div className="border-l-2 border-gray-600/95 ml-28 ">
+            <div className="border-l-2 border-gray-600/95 lg:ml-28 ">
                 <article className="mx-5 my-5 text-[#8F8F8F]">
                     <h3 className="text-black/40 text-2xl my-3">APR 17,2023</h3>
                     <h3 className="py-2 px-4 bg-gYellow w-fit relative text-white "><span className="absolute w-4 aspect-square bg-gray-600 -left-5 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full" /> Deadline for Online Registration</h3>
-                    <p className="ml-4 text-sm my-4"><span className="mr-5 text-2xl">1</span> Create a Coding Competitions profile</p>
-                    <p className="ml-4 text-sm my-4"><span className="mr-5 text-2xl">2</span> Register for Hashcode 2023 Individually</p>
-                    <p className="ml-4 text-sm my-4"><span className="mr-5 text-2xl">3</span>
-                        <span className="inline-flex flex-col"> <span> Form a team of 2 to 4 people among yourself, and select</span>
-                            <span> AUB HUB under “My Team”</span></span></p>
+                    <p className="ml-3 text-sm my-4 flex gap-x-5"><span className=" text-2xl">1</span> Create a Coding Competitions profile</p>
+                    <p className="ml-3 text-sm my-4 flex gap-x-5"><span className=" text-2xl">2</span> Register for Hashcode 2023 Individually</p>
+                    <p className="ml-3 text-sm my-4 flex gap-x-5"><span className=" text-2xl">3</span>
+                        <span className="inline-flex flex-col max-w-[450px]"> Form a team of 2 to 4 people among yourself, and select AUB HUB under “My Team”</span></p>
                 </article>
                 <article className="mx-5 my-10  text-[#8F8F8F]">
                     <h3 className="text-black/40 text-2xl my-3">April 30 , 2023</h3>
@@ -34,8 +42,8 @@ function Schedule() {
                     <h3 className="py-2 px-4 bg-gYellow w-fit relative text-white "><span className="absolute w-4 aspect-square bg-gray-600 -left-5 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-full" />World Finals</h3>
                 </article>
             </div>
-            <div className="w-1/2 my-5">
-                <p className="bg-gGreen text-white px-6 py-1 text-lg w-fit ml-auto">For more information visit hashcode.google.com</p>
+            <div className="lg:w-1/2 min-w-fit my-12">
+                <p className="bg-gGreen text-white px-6 py-1 text-lg w-fit lg:ml-auto">For more information visit hashcode.google.com</p>
             </div>
 
 

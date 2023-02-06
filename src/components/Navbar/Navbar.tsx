@@ -1,15 +1,11 @@
 import Image from "next/image";
 import cu from "./cu.png";
 import hs from "./hs.png";
-import { Montserrat } from "@next/font/google";
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"]
-})
+
 function Navbar() {
   return (
 
-    <header className={` ${montserrat.variable}  text-sm font-montserrat tracking-wider  flex justify-between items-center w-10/12 mx-auto  pt-5  `}>
+    <header className={`   text-sm font-montserrat tracking-wider  flex justify-between items-center w-10/12 mx-auto  pt-5  `}>
       <Image
         src={hs}
         alt="hero"
@@ -27,16 +23,16 @@ function Navbar() {
         </a>
         <a href="">Hashcode</a>
         <div className="self-center space-x-4 text-center flex-1 text-gray-400 ">
-          <a href="#" className="hover:text-white">
+          <a href="#about" className="hover:text-white">
             About
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="#schedule" className="hover:text-white">
             Schedule
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="#faq" className="hover:text-white">
             FAQ
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="#rules" className="hover:text-white">
             Rules
           </a>
         </div>
