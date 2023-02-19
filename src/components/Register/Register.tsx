@@ -4,7 +4,7 @@ import register from "./register.png"
 function Register() {
   return (
     <>
-      <div className="grid place-items-center  py-40 my-5 relative  font-poppins isolate  ">
+      <div className="grid place-items-center py-40 my-5 relative  font-poppins isolate  ">
         <Image fill alt="background" src={register} className=" object-scale-down pointer-events-none -z-10" />
         <div className="flex flex-col justify-center items-center">
           <p className=" font-bold  text-3xl md:text-6xl leading-[86px] tracking-[-4.5%] text-black/75">Register Now</p>
